@@ -14,6 +14,11 @@ class Timer : public QObject
     // SECTION CONSTRUCTION
 public:
     explicit Timer(QObject* parent = 0);
+    // SECTION PROPERTIES
+    // SECTION METHODS
+public slots:
+    void start();
+    void stop();
 };
 
 }
