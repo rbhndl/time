@@ -3,6 +3,12 @@ TEMPLATE = app
 
 QT       += core gui
 
+# unit testing
+CONFIG(debug, debug|release) {
+    QT += testlib
+    include(test/test.pri)
+}
+
 SOURCES += main.cpp
 
 HEADERS += main_window.hpp

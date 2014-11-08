@@ -1,0 +1,28 @@
+# automatic
+--style=allman
+--indent-labels
+--indent-col1-comments
+--break-blocks
+--pad-oper
+--pad-header
+--unpad-paren
+--delete-empty-lines
+--fill-empty-lines
+--break-closing-brackets
+--add-brackets
+--convert-tabs
+--suffix=none
+--indent=spaces=4
+--min-conditional-indent=0
+--brackets=break
+--align-pointer=type
+#--align-reference=type # unavailable debian 7.0
+--mode=c
+--lineend=linux
+# manual
+#--max-code-length=80 # unavailable debian 7.0
+#--break-after-logical # unavailable debian 7.0
+--formatted
+#--exclude="doc/html"
+--recursive
+
