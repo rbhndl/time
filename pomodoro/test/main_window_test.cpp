@@ -17,5 +17,4 @@ void MainWindow_Test::test_cases()
 }
 
 void MainWindow_Test::benchmarks()
-{
-}
+{}

@@ -1,8 +1,10 @@
 INCLUDEPATH += $$PWD
 DEPENDPATH  += $$PWD
 # test package
-HEADERS += $${PWD}/all_tests.hpp
-SOURCES += $${PWD}/all_tests.cpp
+HEADERS += $${PWD}/all_tests.hpp \
+    test/pomodoro_timer_test.hpp
+SOURCES += $${PWD}/all_tests.cpp \
+    test/pomodoro_timer_test.cpp
 
 HEADERS += $${PWD}/test.hpp
 SOURCES += $${PWD}/test.cpp
